@@ -35,9 +35,9 @@ The list of programs is as follows:
 
 
 **Merge datasets downloaded from the ENCODE project based on specified criteria**
-*mergeBEDbyTarget.py
+* mergeBEDbyTarget.py
 
 **Feature Region Overlap Checker**
-*GenomicFeatureLocator.py
+* GenomicFeatureLocator.py
 
 
