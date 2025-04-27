@@ -11,7 +11,7 @@ Python >= 3.7
 Please choose to either clone the entire directory or, if your focus is on a specific script, to download that particular script onto your local drive.
 
 ## Documentation
-Please see [wiki](https://github.com/mihshimada/Brain_Iso-Seq/wiki) for detailed explanation of scripts.
+Please see [wiki](https://github.com/mihshimada/Hypomethylation_immune/wiki) for detailed explanation of scripts.
 
 The list of programs is as follows:
 
