@@ -1,7 +1,8 @@
 # Hypomethylation_immune
-This repository contains the python scripts used in a study exploring hypomethylation in immune-mediated diseases.
+This repository contains the Python scripts used to perform the analyses conducted in our study (doi: ).
 
-The programs in this repository are the ones we used in our research (doi: ). Its purpose is to format and analyze data from a merged file that includes the results of sample chaining using [TALON](https://github.com/mortazavilab/TALON) and the output file from [SQANTI3](https://github.com/ConesaLab/SQANTI3). Although there may be less versatile programs since we did not aim to provide an analysis pipeline, we will do our best to address any inquiries and are open to modification for your use.
+The scripts compiled here were utilized during the research process and are intended for formatting and analyzing data specific to this project.
+Although the programs are not designed as a general-purpose analysis pipeline, we are happy to respond to any inquiries and are open to modifications to support your usage.
 
 ## Python Requirements
 Python >= 3.7
@@ -14,16 +15,29 @@ Please see [wiki](https://github.com/mihshimada/Brain_Iso-Seq/wiki) for detailed
 
 The list of programs is as follows:
 
-**Data_Processing**
-* DataProcessing_1.py
-* DataProcessing_2.py
-* DataProcessing_3.py
-* DataProcessing_4.py
+**Count Flanking CpG Sites and Sequence Context**
+* CpGContextCounter.py
 
-**Conversion_TPM_to_Percentage**
-* TPM_table.py
-* Isoform_Proportion.py
+**Calculate the total length of detected DMPs (in Mb)**
+* region_length_summary.py
+  
+**Calculate the overlapping regions between PMDs**
+* pairwise_overlap_length.py
 
-**Alternative_Splicing_Investigation**
-* AS_Investigation.py
+**Align and merge multiple bedGraph files into unified genomic intervals**
+* merge_bedgraph.sh
+* generate_merged_ranges.py
+* map_values_to_ranges.py
+
+**Probe-wise Region Annotation Based on Chromosomal Coordinates**
+* annotate_probes.sh
+* CpGRegionAnnotator.py
+
+
+**Merge datasets downloaded from the ENCODE project based on specified criteria**
+*mergeBEDbyTarget.py
+
+**Feature Region Overlap Checker**
+*GenomicFeatureLocator.py
+
 
