@@ -40,4 +40,12 @@ The list of programs is as follows:
 **Feature Region Overlap Checker**
 * GenomicFeatureLocator.py
 
+**Summarize CpG information from cis-eQTMs on a per-gene basis**
+* eQTMgeneRanker.py
+
+**Summarize eQTM information on a per-probe basis**
+* eQTMprobeAggregator.py
+
+
+
 
