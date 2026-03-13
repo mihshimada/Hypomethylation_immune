@@ -47,5 +47,14 @@ The list of programs is as follows:
 * eQTMprobeAggregator.py
 
 
+## Additional analysis scripts
+
+In addition to the Python utilities listed below, this repository also contains scripts used for specific analyses in the study.
+
+- **RNA-seq/**  
+  Scripts for RNA-seq preprocessing and TCR clonality analysis (fastp, TRUST4).
+
+- **DMR_detection/**  
+  Scripts used to identify hypomethylation-associated differentially methylated regions (DMRs) using the bumphunter algorithm.
 
 
