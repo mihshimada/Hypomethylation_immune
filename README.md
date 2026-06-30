@@ -1,11 +1,12 @@
 # Hypomethylation_immune
-This repository contains the Python scripts used to perform the analyses conducted in our study (doi: ).
+This repository contains the Python and R scripts used to perform the analyses conducted in our study (doi: ).
 
 The scripts compiled here were utilized during the research process and are intended for formatting and analyzing data specific to this project.
 Although the programs are not designed as a general-purpose analysis pipeline, we are happy to respond to any inquiries and are open to modifications to support your usage.
 
-## Python Requirements
-Python >= 3.7
+## Requirements
+Python >= 3.7  
+R >= 4.5.0, with Seurat (v5.5.0), harmony, scDblFinder, Azimuth, scRepertoire (v2.6.2), dplyr, ggplot2
 
 ## How to use this repository
 Please choose to either clone the entire directory or, if your focus is on a specific script, to download that particular script onto your local drive.
@@ -49,12 +50,18 @@ The list of programs is as follows:
 
 ## Additional analysis scripts
 
-In addition to the Python utilities listed below, this repository also contains scripts used for specific analyses in the study.
+In addition to the Python utilities listed above, this repository also contains scripts used for specific analyses in the study.
 
 - **RNA-seq/**  
   Scripts for RNA-seq preprocessing and TCR clonality analysis (fastp, TRUST4).
 
 - **DMR_detection/**  
   Scripts used to identify hypomethylation-associated differentially methylated regions (DMRs) using the bumphunter algorithm.
+
+- **Single_cell/**  
+  R scripts for the single-cell RNA-seq and paired TCR analysis of NT1 and control PBMCs (Seurat v5 pipeline: QC → doublet removal → normalization/integration → Azimuth annotation → T-cell subset re-clustering → annotation and proportion analysis → TCR repertoire analysis). Run in numerical order (01–07).
+
+  
+
 
 
